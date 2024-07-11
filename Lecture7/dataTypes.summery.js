@@ -27,16 +27,22 @@ console.log(typeof bigNumber);
 
 
 
-//Reference (Non-Primitive): they have data type as object
-// In JavaScript, non-primitive data types are also known as reference types. 
-// They include:
-// Objects: An object is a collection of key-value pairs.
-// Arrays: An array is an ordered collection of values.
-// Functions: A function is a block of code that can be called to perform a specific task.
-// These data types are considered non-primitive because they are stored and accessed by 
-// reference, unlike primitive types which are stored and accessed directly by their values.
+/*
+Reference (Non-Primitive): they have data type as object
 
-// 3 types: Array, Objects, Functions  
+In JavaScript, non-primitive data types are also known as reference types. 
+
+They include:
+Objects: An object is a collection of key-value pairs.
+Arrays: An array is an ordered collection of values.
+Functions: A function is a block of code that can be called to perform a specific task.
+
+These data types are considered non-primitive because they are stored and accessed by 
+reference, unlike primitive types which are stored and accessed directly by their values.
+
+*/
+
+
  
 const name = ["Nirmal", "Anil", "yug", "Panda"];
 console.log(typeof name);
@@ -57,6 +63,23 @@ console.log(typeof myFunction);
 
 // Read:  https://262.ecma-international.org/5.1/#sec-11.4.3
 
+/*
+Datatype and Its Return Type
+Primitive Datatype:
+
+String --> String
+integer/float (Number) --> Number
+Boolean --> Boolean
+null --> Object
+undefined --> Undefined
+BigInteger --> Bigint
+Symbol --> Symbol
+Reference (Non-Primitive) Datatype:
+
+Array --> object
+Objects --> Object
+Function --> Function
+*/
 
 /* 
 JavaScript is a dynamically typed language, which means that data types of variables 
