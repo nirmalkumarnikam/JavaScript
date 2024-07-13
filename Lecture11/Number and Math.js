@@ -37,4 +37,5 @@ const val = -4.3
 console.log(Math.random());         //this will give random value greater than or equal to 0 and less than 1
 console.log((Math.random()*10)+1);  //multiply divide add subtract to get required random value
 
-console.log(`Output of Rolling Dice = ${Math.floor(Math.random() * 6) + 1}`);
+console.log(`Output of Rolling Dice = ${Math.floor(Math.random() * 6) + 1}`);  //how to use random as dice
+
